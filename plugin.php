@@ -47,7 +47,7 @@ class ETPlugin_StopForumSpam extends ETPlugin {
 	public function request($query_string) {
 		$curl = curl_init(self::APIDOMAIN.'?'.$query_string); 
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($curl, CURLOPT_USERAGEN, 'CURL (StopForumSpam; EsoTalk/'.ESOTALK_VERSION.')');
+		curl_setopt($curl, CURLOPT_USERAGENT, 'CURL (StopForumSpam; EsoTalk/'.ESOTALK_VERSION.')');
 		$res = curl_exec($curl);
 		curl_close($curl); 
 
