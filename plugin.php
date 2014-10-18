@@ -1,5 +1,5 @@
 <?php
-// Copyright 2013 Joshua Rüsweg
+// Copyright 2013-2014 Joshua Rüsweg
 // This file is part of esoTalk. Please see the included license file for usage information.
 
 if (!defined('IN_ESOTALK')) exit;
@@ -7,7 +7,7 @@ if (!defined('IN_ESOTALK')) exit;
 ET::$pluginInfo['StopForumSpam'] = array(
 	'name' => 'StopForumSpam',
 	'description' => 'Suspends a member if the member is listed in StopForumSpam',
-	'version' => '1.0.0',
+	'version' => '1.0.1',
 	'author' => 'Joshua Rüsweg',
 	'authorEmail' => 'josh@joshsboard.de',
 	'authorURL' => 'http://esotalk.org/forum/member/928-josh',
